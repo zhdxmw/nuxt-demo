@@ -13,11 +13,11 @@
   import axios from 'axios'
   export default {
   	async asyncData (context) {
-      let data = await axios.post("/api/home/homearticle", {
-        page: 1,
-        size: 20
-      })
-      console.log(data)
+//      let data = await axios.post("/api/home/homearticle", {
+//        page: 1,
+//        size: 20
+//      })
+//      console.log(data)
       return { id: context.params.id,data:data}
     },
     head () {
