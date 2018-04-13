@@ -10,7 +10,7 @@
 
 <script>
   import AppLogo from '~/components/AppLogo.vue'
-  import axios from 'axios'
+//  import axios from 'axios'
   export default {
   	async asyncData (context) {
 //      let data = await axios.post("/api/home/homearticle", {
@@ -18,7 +18,7 @@
 //        size: 20
 //      })
 //      console.log(data)
-      return { id: context.params.id,data:data}
+      return { id: context.params.id}
     },
     head () {
       return {
