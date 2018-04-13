@@ -3,7 +3,7 @@
     .detail info {{id}}
     router-link(:to="{name:'info-id', params:{id: 11}}") index
     br
-    router-link(:to="{name:'info-id', params:{id: 113}}") index113
+    router-link(:to="{name:'info-id', params:{id: 113}}") index1134444
     br
     router-link(:to="{name:'index-detail'}") detail
 </template>
